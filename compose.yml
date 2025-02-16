@@ -1,0 +1,6 @@
+services:
+  php:
+    image: anamoya/calculadora:v1
+    container_name: contenedorCalcu
+    ports:
+      - "8095:80"
